@@ -1,0 +1,330 @@
+html, body {
+  background-color: #f47128;
+  color: #ffffff;
+  font-family: 'Macha', sans-serif;
+
+}
+
+/*.div_bannerFreteGratis_desktop {
+  width: 80%;
+}*/
+
+.banner_frete_gratis {
+  padding-top: 50px;
+}
+
+.banner_frete_reduzido {
+  padding-top: 50px;
+}
+
+#texto-base-reduzido {
+  color: #000000;
+  padding-bottom: 50px;
+}
+
+#container-fluid-frete_gratis {
+  width: 80%;
+}
+#container-fluid-frete_reduzido {
+  width: 80%;
+}
+.banner-veja-a-diferenca_frete_gratis {
+  background: url('../img/cervejas-diferenca-frete-gratis.png') center no-repeat;
+  width: 100%;
+  height: 540px;
+
+}
+
+.banner-veja-a-diferenca_frete_reduzido {
+  background: url('../img/cervejas-diferenca-frete-reduzido.png') center no-repeat;
+  width: 100%;
+  height: 540px;
+}
+
+.div_bannerFreteGratis_desktop {
+  background: url('../img/fundo-frete_gartis.png') center no-repeat;
+  width: 100%;
+  background-size: 100%;
+  /*height: 725px;*/
+}
+
+.banner_frete_reduzido {
+  background: url('../img/fundo-frete_reduzido.png') center no-repeat #118e25;
+  width: 100%;
+  background-size: 100%;
+  /*height: 725px;*/
+}
+
+.banner_quer_ganhar {
+  background: url('../img/fundo-quer_ganhar.png') center no-repeat #f47128;
+  width: 100%;
+  background-size: 100%;
+  padding-top: 80px;
+  /*height: 725px;*/
+}
+
+#img_frete_gratis_passos {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#frete-gratis-passo-1 {
+  padding-top: 20px;
+}
+#frete-gratis-passo-2 {
+  padding-top: 30px;
+}
+#frete-gratis-passo-3 {
+  padding-top: 15px;
+}
+#frete-gratis-passo-4 {
+  padding-top: 5px;
+}
+
+
+#img_frete_reduzido_passos {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#frete-reduzido-passo-1 {
+  padding-top: 20px;
+}
+#frete-reduzido-passo-2 {
+  padding-top: 30px;
+}
+#frete-reduzido-passo-3 {
+  padding-top: 15px;
+}
+#frete-reduzido-passo-4 {
+  padding-top: 5px;
+}
+
+.texto_quer_ganhar {
+  font-size: 110px;
+}
+
+#texto-base-ganhar {
+  font-size: 35px;
+}
+
+#texto-base-gratis {
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.landing-button {
+  display: block;
+  text-align: center;
+  padding-bottom: 50px;
+  /*vertical-align: middle;*/
+  
+  
+
+}
+.btn-lg {
+  color: #ffffff;
+  width: 550px;
+  background-color: #000000;
+  /*padding: 13px;*/
+  border-radius: 30px;
+  font-weight: bold;
+}
+.co {
+  background-color: #f47128;
+}
+.ca {
+  background-color: #000000;
+}
+
+.btn-clique-aqui {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.landing-text {
+  display: block;
+  text-align: center;
+  /*vertical-align: middle;*/
+}
+
+.landing-image {
+  display: block;
+  text-align: center;
+}
+
+.txt-confira-as-ofertas {
+  display: block;
+  text-align: center;
+}
+
+.items-group {
+  padding-top: 50px;
+  vertical-align: middle;
+}
+
+.veja {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#diferenca {
+  color: #f47128;
+}
+
+#simu-frete {
+  color: #f47128;
+}
+
+.simulacao {
+  font-weight: bold;
+}
+
+#diferenca-reduzido {
+  color: #118e25;
+}
+#simu-frete-reduzido {
+  color: #118e25;
+}
+
+.btn-clique-aqui-mobile {
+  display: none;
+}
+
+.btn-lg {
+  font-family: 'BebasNeue';
+  text-align: center;
+  font-size: 28px;
+  vertical-align: middle;
+
+}
+
+.btn-clique-aqui-desktop {
+  padding-bottom: 50px;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 640px)
+{
+  html {
+    font-family: 'Macha', sans-serif;
+  }
+  #imagem-frete-mobile {
+    width: 100%;
+  }
+  
+  .viu-o-selo {
+    font-size: 1.0rem;
+  }
+
+  .texto-base-frete-gratis {
+    font-size: 0.5rem;
+  }
+
+  .veja {
+    font-size: 1.5rem;
+  }
+  .simulacao {
+    font-size: 0.7rem;
+  }
+  .landing-image {
+    width: 100%;
+  }
+  #img-correios-smart {
+    width: 80%;
+  }
+  .landing-button {
+    display: contents;
+    width: 50px;
+  }
+  .co {
+    width: 200px;
+  }
+  
+  .nao-viu-o-selo {
+    font-size: 0.7rem;
+  }
+  .texto-base-reduzido {
+    font-size: 0.8rem;
+  }
+  #texto-base-ofertas-reduzido {
+    font-size: 0.6rem;
+    margin: 15px;
+  }
+  .btn-confira-as-ofertas {
+    text-align: center;
+  }
+  .banner_quer_ganhar img {
+    width: 100%;
+  }
+  .texto_quer_ganhar {
+    font-size: 2.2rem;
+  }
+  #texto-base-ganhar {
+    font-size: 0.8rem;
+  }
+  .btn-clique-aqui-desktop {
+    display: none;
+  }
+  .btn-clique-aqui-mobile {
+    display: block;
+    width: 250px;
+  }
+
+  #passos-frete-gratis img {
+    width: 100%;
+  }
+
+  #passos-frete-reduzido img {
+    width: 100%;
+  }
+
+  #frete-gratis-passo-2 {
+    padding-top: 13px;
+  }
+
+  #frete-gratis-passo-4 {
+    padding-top: 15px;
+  }
+
+  #frete-reduzido-passo-4 {
+    padding-top: 7px;
+  }
+
+  #frete-reduzido-passo-2 {
+    padding-top: 25px;
+  }
+
+  .banner-veja-a-diferenca_frete_gratis {
+    height: 300px;
+  }
+
+  .items-group {
+    padding-top: 0px;
+  }
+
+  .banner-veja-a-diferenca_frete_reduzido {
+    height: 300px;
+  }
+
+  .btn-lg {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .btn-lg.ca {
+    width: 300px;
+  }
+
+  .landing-small-txt {
+    padding-top: 5px;
+  }
+
+  .btn-confira-as-ofertas {
+    padding-bottom: 55px;
+  }
+}

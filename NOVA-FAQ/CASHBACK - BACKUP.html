@@ -1,0 +1,366 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- NOVO SCRIPT TEMPORÁRIO PARA REMOVER O TITLE - INÍCIO (Marcos - 01/09/2019) -->
+<!-- ##DIRETÓRIO: (SE)Produção > Sub Templates > CashBack -->
+
+<script>
+$(document).ready(function(){
+  
+    $("title").remove("title");
+  
+});
+</script>
+
+<!-- NOVO SCRIPT TEMPORÁRIO PARA REMOVER O TITLE - FIM -->
+
+<!-- NOVO SCRIPT TEMPORÁRIO PARA ADICIONAR O TITLE (correto) - INÍCIO (Marcos - 01/09/2019) -->
+<!-- ##DIRETÓRIO: (SE)Produção > Sub Templates > CashBack -->
+
+<script>
+$(document).ready(function(){
+  var title = document.createElement("TITLE");
+  title.innerHTML = "Cashback - Clube do Malte";
+  document.head.appendChild(title);
+});
+</script>
+
+<!-- NOVO SCRIPT TEMPORÁRIO PARA ADICIONAR O TITLE - FIM -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Cashback</title>
+  <link crossorigin="anonymous" href="https://recursos.clubedomalte.com.br/c/fonte-0.css" rel="stylesheet">
+  <link crossorigin="anonymous" href="https://recursos.clubedomalte.com.br/c/malte_fonts.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cashbackclubedomalte.com.br/site/css/cash.css" type="text/css">
+  <link rel="stylesheet" href="https://cashbackclubedomalte.com.br/site/css/template.css" type="text/css">
+  <link rel="stylesheet" href="https://cashbackclubedomalte.com.br/site/css/extras.css" type="text/css">
+  <link rel="stylesheet" href="https://cashbackclubedomalte.com.br/site/css/hornav.css" type="text/css">
+ 
+
+  <link media="screen" rel="stylesheet" href="https://cashbackclubedomalte.com.br/site/css/template-responsive.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+
+  <link href="https://unpkg.com/tabulator-tables@4.1.4/dist/css/tabulator.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <link rel="stylesheet" href="https://cashbackclubedomalte.com.br/site/css/data-table.css">
+  <!-- CSS maroto para o banner pricipal -->
+    <style media="screen">
+    .sumir{
+      display: none;
+    }
+    header#main #desk-menu ul li{    font-size: 14.8px!important;}
+    .cat-floating.absolute{display: none!important;}
+    @@media only screen and (max-width: 600px) {
+      .sumir{
+        display: block!important;
+      }
+      .aparecer {
+          display: none;
+          }
+          .js-data-table{
+              display: none;
+          }
+          .js-data-table-filters{
+              display: none;
+          }
+          .xt{display: none;}
+          .tx{position: relative!important; left: 13px;}
+        }
+    </style>
+</head>
+
+<body id="home" data-margintop="0px" style="margin-top: 0px;">
+  <div id="frontbanner"> <img class="dj-image aparecer" src="https://recursos.clubedomalte.com.br/i/cashback/slide01.jpg" alt="" style="width: 100%;" >
+  <img class="dj-image sumir" src="https://recursos.clubedomalte.com.br/i/cashback/slide02.jpg" alt="" style="width: 100%;" > </div>
+  <div id="mods">
+    <div id="mod2">
+      <div class="container">
+        <div class="moduletable">
+          <div class="custom">
+            <section id="mod3">
+              <div class="hcontainer">
+                <div style="position: relative; float: left; display: block; width: 100%; text-align: center; vertical-align: top; ">
+                  <div class="img-cont" style="vertical-align: top; display: inline-block; width: 33%; background: url('https://recursos.clubedomalte.com.br/i/cashback/00_04.png') no-repeat scroll left center transparent !important; padding: 20px 0 20px 60px !important; text-align: left !important;min-height: 70px; ">
+                    <p>você tem:</p>
+                    <p><span class="pontos-cb js-pontos-cb">0,00</span> <span style="font-size: 30px; font-family: BebasNeue Regular; font-weight: bold; line-height: 100%; font-style: italic;" class="pontos-cb">pontos</span><br>
+                      de CashBack</p>
+                  </div>
+                  <div class="img-cont tx" style="vertical-align: top; display: inline-block; width: 33%; background: url('https://recursos.clubedomalte.com.br/i/cashback/00_04.png') no-repeat scroll left center transparent !important; padding: 20px 0 20px 60px !important; text-align: left !important;min-height: 70px;position: relative; bottom: 4px;">
+                    <p>Saldo Total</p>
+                  
+                    <p><span class="saldotot-cb js-saldo-cb">R$0,00</span>
+                 
+                    em créditos
+                    
+                    </p>
+                      <small style="color:#000; font-size: .6em; font-weight: bold;" class="js-validade-cb">Validade mais proxima: 00/00/0000</small>
+                  </div>
+                  <div class="img-cont js-img-cliente" style="vertical-align: top; display: inline-block; width: auto; background: url('https://recursos.clubedomalte.com.br/i/cashback/00_05.png') no-repeat scroll left center transparent !important; padding: 20px 0 20px 60px !important; text-align: left !important;min-height: 70px;">
+                    <p>você é um cliente:</p>
+                    <p><span class="usercat-cb js-cliente-cb">Ouro</span>
+                    <br>
+                    CashBack
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="mod2">
+      <div class="hcontainer">
+        <div class="img-cont" style="vertical-align: top; display: inline-block; width: 195px; padding: 0 !important; text-align: center !important;">
+          <a href="https://www.clubedomalte.com.br/compre-e-ganhe"><img src="https://cashbackclubedomalte.com.br/site/images/banners_03.jpg" alt=""></a>
+          <p style="text-align: center;text-transform: uppercase;padding: 0;margin: 10px 0;font-size: 20px;line-height: 120%;">Ganhe
+            <br>
+         descontos e pontos</p>
+          <a href="https://www.clubedomalte.com.br/compre-e-ganhe"><img src="https://cashbackclubedomalte.com.br/site/images/comece-btn.png" alt="" width="141" height="20"></a>
+        </div>
+        <div class="img-cont" style="vertical-align: top; display: inline-block; width: 195px; padding: 0 !important; text-align: center !important;">
+          <a href="@string.Format(G.UrlEcommerce)inverno"><img src="https://recursos.clubedomalte.com.br/MediaCenter/banner-cashback-inverno.jpg" alt=""></a>
+          <p style="text-align: center;text-transform: uppercase;padding: 0;margin: 10px 0;font-size: 20px;line-height: 120%;">Acumule
+            seus <br>
+            Créditos<br> e pontue mais</p>
+          <a href="@string.Format(G.UrlEcommerce)inverno"><img src="https://cashbackclubedomalte.com.br/site/images/comece-btn.png" alt="" width="141" height="20"> </a>
+        </div>
+        <div class="img-cont" style="vertical-align: top; display: inline-block; width: 195px; padding: 0 !important; text-align: center !important;">
+          <a href="https://www.clubedomalte.com.br/grandes-marcas-grandes-descontos"><img src="https://recursos.clubedomalte.com.br/MediaCenter/banner-cashback.png" alt=""></a>
+          <p style="text-align: center;text-transform: uppercase;padding: 0;margin: 10px 0;font-size: 20px;line-height: 120%;">aproveite
+            as <br>
+            promoções<br> e pontue agora</p>
+          <a href="https://www.clubedomalte.com.br/grandes-marcas-grandes-descontos"><img src="https://cashbackclubedomalte.com.br/site/images/comece-btn.png" alt="" width="141" height="20"></a>
+        </div>
+        <div class="img-cont" style="vertical-align: top; display: inline-block; width: 195px; padding: 0 !important; text-align: center !important;">
+          <a href="https://www.clubedomalte.com.br/beer-pack"><img src="https://recursos.clubedomalte.com.br/MediaCenter/banner_bp_cashback_setembro.jpg" alt=""></a>
+          <p style="text-align: center;text-transform: uppercase;padding: 0;margin: 10px 0;font-size: 20px;line-height: 120%;">Assine
+            o<br>
+            Beer Pack<br> e pontue ainda mais</p>
+          <a href="https://www.clubedomalte.com.br/beer-pack"><img src="https://cashbackclubedomalte.com.br/site/images/comece-btn.png" alt="" width="141" height="20"></a>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+  </div>
+  </section>
+  <div id="mod2">
+    <div class="container">
+      <div class="moduletable">
+        <div class="custom">
+          <section id="mod2	">
+            <div class="hcontainer">
+              <h3 class="xt">Meu extrato</h3>
+             <div style="" class="xt">
+                <form class="js-data-table-filters data-table-filters" action="javascript.void(0);">
+                  <label class="data-table-input" for="periodo">
+                    <div>Período</div>
+                    <select id="periodo" name="periodo">
+                      <option value="ALL" selected>Selecione um filtro</option>
+                      <option value="TODAY">Hoje</option>
+                      <option value="YESTERDAY">Ontem</option>
+                      <option value="LAST_30_DAYS">Últimos 30 dias</option>
+                    </select>
+                  </label>
+                  <label class="data-table-input" for="transacao">
+                    <div>Tipo de transação</div>
+                    <select id="transacao" name="transacao">
+                      <option value="ALL" selected>Selecione um filtro</option>
+                      <option value="CREDITO">CRÉDITO</option>
+                      <option value="RETIRADA">DÉBITO</option>
+                    </select>
+                  </label>
+                  <label class="data-table-input" for="fromDate">
+                    <div>De</div>
+                    <input type="text" name="fromDate" id="fromDate">
+                  </label>
+                  <label class="data-table-input" for="toDate">
+                    <div>Até</div>
+                    <input type="text" name="toDate" id="toDate">
+                  </label>
+                  <button class="js-data-table-reset" type="button" style="font-size: 13px;position: relative;">Redefinir Filtros</button>
+                </form>
+                <div class="js-data-table"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="mod2">
+    <div class="container">
+      <div class="moduletable">
+        <div class="custom">
+          <section id="mod2	">
+            <div class="hcontainer">
+              <h2>Como funciona o<br>
+                <span style="font-family: 'BebasNeue regular', arial; font-weight: bold;">Cashback Clube do Malte?</span></h2>
+              <p style="font-family: Macha, arial;font-size: 14px;text-transform: inherit;font-style: inherit;line-height: 120%;margin: 0 0 15px 0;">Cada
+                um desses programas funciona de uma maneira diferente, mas de modo geral são excelentes oportunidades
+                para fazer o dinheiro render mais. O Cashback Clube do Malte funciona da seguinte maneira: cada R$ 1,00
+                gasto em compras no site <a href="https://www.clubedomalte.com.br" target="_blank">www.clubedomalte.com.br</a> equivale a 1 ponto. E o melhor: dependendo da categoria
+                de cada cliente, a pontuação recebe gatilhos de bonificação, aumentando ainda mais os benefícios. Esses
+                pontos serão convertidos em créditos para ser utilizados em próximas compras no site do Clube do Malte.</p>
+              <p style="font-family: Macha, arial;font-size: 14px;text-transform: inherit;font-style: inherit;line-height: 120%;margin: 0 0 15px 0;">No
+                Clube, cada cliente é classificado, de acordo com a sua atividade recente, nas seguintes categorias:
+                Bronze, Prata, Ouro, Diamante, e Platinum. Cada medalha equivale ao valor em compras realizadas no
+                site, em um período de 12 meses. Conforme a medalha a compra resulta em um valor de pontos, ou seja,
+                quanto mais alto o nível de medalhas, maior será a multiplicação de pontos para cada 1,00 gasto em
+                compras no site do Clube.</p>
+                <p style="color: #89b12e; font-style: italic;">Importante: Assinantes tem ainda mais uma vantagem. O valor pago mensalmente pela assinatura de cervejas Beer Pack, também acumulará pontos que serão convertidos em créditos e poderão ser usados normalmente em compras futuras.</p>
+            <br>
+            <p>O Cashback Clube do Malte entra em vigor no dia 18/01/2019, ou seja, somente converterão em pontos as compras pagas a partir dessa data. </p>
+                <br>
+              <h2>classificação<br>
+                <span style="font-family: 'BebasNeue regular', arial; font-weight: bold;">de categorias</span></h2>
+              <div style="position: relative; float: left; display: block; width: 100%; text-align: left;">
+                <div class="img-cont" style="display: inline-block; width: 70%; background: url('https://recursos.clubedomalte.com.br/i/cashback/00_14.png') no-repeat scroll left center transparent; padding: 10px 0 10px 130px; margin: 10px 0 10px 70px;">
+                  <p style="text-transform: uppercase;">Bronze</p>
+                  <p>Cliente NÃO assinante que tenha efetuado compras até R$ 250,00 nos últimos
+                    12 meses.<br>
+                    Frequência de compras: Ao menos 1 compra nos últimos 8 meses.
+                    <br>
+                   <span style="font-weight: bold;"> R$1,00 = 1 Ponto.</span>
+                  </p>
+                </div>
+                <div class="img-cont" style="display: inline-block; width: 70%; background: url('https://recursos.clubedomalte.com.br/i/cashback/00_18.png') no-repeat scroll left center transparent; padding: 10px 0 10px 130px; margin: 10px 0 10px 70px;">
+                  <p style="text-transform: uppercase;">Prata</p>
+                  <p>Cliente NÃO assinante que tenha efetuado compras acima de R$ 250,00 nos
+                    últimos 12 meses.<br>
+                    Frequência de compras: Ao menos 1 compra nos últimos 8 meses.
+                    <br>
+                    <span style="font-weight: bold;">R$1,00 = 1,4 Pontos.</span>
+                  </p>
+                </div>
+                <div class="cred-bp" style="position: relative; float: left; padding: 0 0 0 70px; background: url('https://recursos.clubedomalte.com.br/i/cashback/bp-bg.png') no-repeat scroll left center transparent;">
+                  <h2 class="resp" style="text-align: center;">Beer <span style="font-family: 'BebasNeue regular', arial; font-weight: bold;">Pack</span></h2>
+                  <div class="img-cont" style="display: inline-block; width: 100%; background: url('https://recursos.clubedomalte.com.br/i/cashback/00_20.png') no-repeat scroll left center transparent; padding: 10px 0 10px 130px; margin: 10px 0;">
+                    <p style="text-transform: uppercase;">Ouro</p>
+                    <p><b>SOMENTE</b> cliente assinante com tempo de assinatura de até 8 meses <br>
+                      E que tenha efetuado compras até R$ 1000,00 (o custo da assinatura também será contabilizado) nos últimos 12 meses.<br>
+                      Frequência de compras: Ao menos 1 compra nos últimos 8 meses.
+                      <br>
+                     <span style="font-weight: bold;"> R$1,00 = 1,7 Pontos.</span>
+                    </p>
+                  </div>
+                  <div class="img-cont" style="display: inline-block; width: 100%; background: url('https://recursos.clubedomalte.com.br/i/cashback/00_22.png') no-repeat scroll left center transparent; padding: 10px 0 10px 130px;">
+                    <p style="text-transform: uppercase;">Diamante</p>
+                    <p><b>SOMENTE</b> cliente assinante com tempo de assinatura acima de 8 meses.<br>
+                      E que tenha efetuado compras entre R$ 1000,00 e R$ 2500,00 (o custo da assinatura também será contabilizado) nos últimos 12 meses.<br>
+                      Frequência de compras: Ao menos 1 compra nos últimos 8 meses.
+                      <br>
+                      <span style="font-weight: bold;">R$1,00 = 2 Pontos.</span>
+                    </p>
+                  </div>
+                  <div class="img-cont" style="display: inline-block; width: 100%; background: url('https://recursos.clubedomalte.com.br/i/cashback/00_24.png') no-repeat scroll left center transparent; padding: 10px 0 10px 130px;">
+                    <p style="text-transform: uppercase;">Platinum</p>
+                    <p><b>SOMENTE</b> cliente assinante com tempo de assinatura acima de 8 meses.<br>
+                      E que tenha efetuado compras acima de R$ 2500,00 (o custo da assinatura também será contabilizado) nos últimos 12 meses.<br>
+                      Frequência de compras: Ao menos 1 compra nos últimos 8 meses.
+                      <br>
+                     <span style="font-weight: bold;"> R$1,00 = 2,4 Pontos.</span></p>
+                  </div>
+                </div>
+                <div class="img-cont" style="display: inline-block; width: 70%; background: url('https://recursos.clubedomalte.com.br/i/cashback/00_26.png') no-repeat scroll left center transparent; padding: 10px 0 10px 130px; margin: 10px 0 10px 70px;">
+                  <p style="text-transform: uppercase;">Acionista*</p>
+                  <p><b>SOMENTE</b> acionista Clube do Malte.<br>
+                    Seja acionista: <a href="htps://www.clubedomalte.com.br/kria" target="_blank" style="color: #000; text-decoration: none; font-weight: bold;" rel="noopener">www.clubedomalte.com.br/kria</a>
+                    <br>
+                   <span style="font-weight: bold;"> R$1,00 = 3 Pontos.</span></p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="mod4">
+    <div class="container">
+      <div class="moduletable">
+        <div class="custom">
+          <section id="mod3" style="background: #fff; margin: 0 0 3% 0;">
+            <div class="hcontainer">
+                 <h2>como utilizar os<br>
+                <span style="font-family: 'BebasNeue regular', arial; font-weight: bold;">meus pontos do Cashback?</span></h2>
+              <p style="font-family: Macha, arial;font-size: 14px;text-transform: inherit;font-style: inherit;line-height: 120%;margin: 0 0 15px 0;width: auto;padding: 20px 0 20px 80px;background: url(https://cashbackclubedomalte.com.br/site/images/como-icon_01.png) no-repeat scroll center left transparent;"><strong>Compre
+                  e ganhe</strong><br>
+                <strong>Você compra</strong> no site do Clube do Malte e <strong>ganha pontos</strong>.</p>
+              <p style="font-family: Macha, arial;font-size: 14px;text-transform: inherit;font-style: inherit;line-height: 120%;margin: 0 0 15px 0;width: auto;padding: 20px 0 20px 80px;background: url(https://cashbackclubedomalte.com.br/site/images/como-icon_02.png) no-repeat scroll center left transparent;"><strong>Seu
+                  dinheiro rende mais</strong><br>
+                <strong>Cada 1 real gasto equivale a 1 ponto ou mais</strong> (varia de acordo com sua categoria de
+                cliente).</p>
+              <p style="font-family: Macha, arial;font-size: 14px;text-transform: inherit;font-style: inherit;line-height: 120%;margin: 0 0 15px 0;width: auto;padding: 20px 0 20px 80px;background: url(https://cashbackclubedomalte.com.br/site/images/como-icon_03.png) no-repeat scroll center left transparent;"><strong>Acumule
+                  pontos</strong><br>
+                <strong>Todas as compras</strong> no site do Clube do Malte <strong>rendem pontos</strong>.</p>
+              <p style="font-family: Macha, arial;font-size: 14px;text-transform: inherit;font-style: inherit;line-height: 120%;margin: 0 0 15px 0;width: auto;padding: 20px 0 20px 80px;background: url(https://cashbackclubedomalte.com.br/site/images/como-icon_04.png) no-repeat scroll center left transparent;"><strong>Os
+                  pontos serão transformados em créditos</strong><br>
+                Quanto <strong>mais compras</strong> realizar, <strong>mais pontos</strong> e mais créditos terá.</p>
+              <p style="font-family: Macha, arial;font-size: 14px;text-transform: inherit;font-style: inherit;line-height: 120%;margin: 0 0 15px 0;width: auto;padding: 20px 0 20px 80px;background: url(https://cashbackclubedomalte.com.br/site/images/como-icon_05.png) no-repeat scroll center left transparent;"><strong>Resgate
+                  e aproveite</strong><br>
+                Utilize seus <strong>créditos como cupom de desconto</strong> em sua próxima compra no site
+                www.clubedomalte.com.br.</p>
+              <p style="font-family: Macha, arial;font-size: 14px;text-transform: inherit;font-style: inherit;line-height: 120%;margin: 0 0 15px 0;width: auto;padding: 20px 0 20px 80px;background: url(https://cashbackclubedomalte.com.br/site/images/como-icon_06.png) no-repeat scroll center left transparent;"><strong>Não
+                  perca seus pontos</strong><br>
+                Os pontos são <strong>válidos por 12 meses</strong> e, caso não sejam usados, expiram após esse
+                período. </p>
+             
+              <a href="https://www.clubedomalte.com.br/compre-e-ganhe"  class="btn-pont" style="background: #fd700f; color: #fff; display: inline-block; margin: 30px auto; width: 65%; text-decoration: none; text-align: center; padding: 5px 0; font-family: 'BebasNeue regular', arial; letter-spacing: 2px;">Use agora seus credítos</a>
+           <br>
+           <h2 class="font-weight-bold text-center">REGULAMENTO</h2>
+           <p>Os créditos adquiridos pelo Cashback Clube do Malte, poderão ser trocados somente em compras no site do clubedomalte.com.br. O valor mensal da assinatura de cervejas Beer Pack também contabilizará em pontos que serão convertidos em créditos. Os créditos são pessoais, inegociáveis e intransferíveis. O estorno ou cancelamento de alguma compra ocasionará no estorno dos respectivos pontos. Os pontos possuem prazo de validade de 12 meses da última compra, decorrido esse prazo os pontos não utilizados expiram e são excluídos do saldo.</p>
+           <br>
+           <p>Assinantes que cancelam a assinatura têm automaticamente seus pontos de Cashback expirados. O Clube do Malte recomenda que os assinantes usem seu saldo Cashback antes de cancelar a assinatura.</p>
+           <br>
+           <p>Qualquer dúvida, elogio ou reclamação, entre em contato com nossa Central de Atendimento: faleconosco@clubedomalte.com.br ou 41 3029.0077 de segunda a sexta das 9h às 18h.</p>
+           <br>
+           <p>Caso não atinja o valor de compra em um período de 12 meses, o cliente perde os benefícios da categoria que havia conquistado e ficando com classificação inativa. </p>
+           <br>
+           <p>*Os benefícios dessa categoria entrarão em vigor somente após finalizada a captação de recursos pelo 1ª equity crowdfunding Clube do Malte.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+
+
+  <!-- External Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/locales.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.1.4/dist/js/tabulator.min.js"></script>
+  <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-range/4.0.1/moment-range.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <!-- External Libraries -->
+
+  <!-- Local files -->
+  <script src="https://cashbackclubedomalte.com.br/site/js/data-table.js"></script>
+  <script src="https://cashbackclubedomalte.com.br/site/js/saldo.js"></script>
+  <!-- Local files -->
+
+
+</body>
+
+</html>
+
+<!--
+<script>
+$(document).ready(function(){
+  
+    $("footer").remove("footer");
+  
+});
+</script>
+
+-->
+
+
+
+
+
